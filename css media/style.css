@@ -1,4 +1,4 @@
-body {
+html {
 	margin: 0;
 	background-color: #FFFFFF;
 }
@@ -13,4 +13,15 @@ body {
 
 .cont {
 	border: dotted #FF00FF 1px;
+}
+
+.cont-six {
+	float: left;
+	width: 50%;
+}
+
+@media (max-width: 576px) {
+	.cont-six {
+		width: 100%;
+	}
 }
