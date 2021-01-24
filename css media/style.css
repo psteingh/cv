@@ -1,0 +1,16 @@
+body {
+	margin: 0;
+	background-color: #FFFFFF;
+}
+
+.container-fluid {
+	border: dotted #FF00FF 1px;
+}
+
+.row {
+	border: dotted #FFFF00 1px;
+}
+
+.cont {
+	border: dotted #FF00FF 1px;
+}
