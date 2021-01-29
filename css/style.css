@@ -20,24 +20,24 @@ a {
 }
 
 a:hover {
-	color: #009966;
+	color: #8C4845;
 }
 
 /* Buttons */
 .navbar-button, .actions-button {
-	background: #009966;
-	background: linear-gradient(to bottom, #009966, 70%, #FFFFFF);
+	background: #8C4845;
+	background: linear-gradient(to bottom, #8C4845, 70%, #FFFFFF);
 	border-radius: 0.6rem;
 	color: #FFFFFF;
 }
 
 /* Section background colors */
 .dblue {
-	background-color: #006699;
+	background-color: #36648B;
 }
 
 .dgreen {
-	background-color: #009999;
+	background-color: #368B88;
 }
 
 /* Header section */
@@ -45,13 +45,13 @@ a:hover {
 	margin: 2% 2% 16% 2%;
 	padding-top: 4%;
 	padding-bottom: 4%;
-	box-shadow: 2px 2px 5px #999999;
+	box-shadow: 2px 2px 5px #7F7F7F;
 }
 
 /* Header titles section */
 .headertitle-text {
 	font-size: 4.5rem;
-	text-shadow: 2px 2px 2px #009999, 4px 4px 4px #999999, 0 0 60px #FFFFFF;
+	text-shadow: 2px 2px 2px #368B88, 4px 4px 4px #7F7F7F, 0 0 60px #FFFFFF;
 }
 
 .headersubtitle-text {
