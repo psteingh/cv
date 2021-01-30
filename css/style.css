@@ -26,7 +26,6 @@ a:hover {
 /* Buttons */
 .navbar-button, .actions-button {
 	background: #8C4845;
-	background: linear-gradient(to bottom, #8C4845, 70%, #FFFFFF);
 	border-radius: 0.6rem;
 	color: #FFFFFF;
 }
@@ -105,13 +104,15 @@ a:hover {
 }
 
 /* Navbar section */
-.navbar-sec {
-	padding: 2% 5%;
-	text-align: justify;
+.navbar-brand {
+	margin-left: 1rem;
+	padding: 0;
 }
 
-.navbar-toggler {
-	margin-right: 4%;
+.logo-btn {
+	width: 6.2rem;
+	height: 3.1rem;
+	border-radius: 0.1rem;
 }
 
 /* Actions section */
@@ -134,8 +135,18 @@ a:hover {
 	padding: 2% 1%;
 }
 
+.fmess-text {
+	font-size: 0.85rem;
+}
+
 .fabout-link {
 	margin-right: 2%;
+}
+
+.logo-ftr {
+	width: 3.0rem;
+	height: 1.5rem;
+	margin: 2% 2%;
 }
 
 /* Media text */
@@ -151,7 +162,6 @@ a:hover {
 
 	.navbar {
 		flex-wrap: nowrap;
-		padding: 2% 5%;
 	}
 
 	.navbar-toggler {
@@ -163,6 +173,6 @@ a:hover {
 	}
 
 	.nav-item {
-		margin-right: 5%;
+		padding-left: 4%;
 	}
 }
